@@ -1,0 +1,6 @@
+*.device.*
+*.cert
+*.key
+*.pem
+*.endpoint
+*.env
