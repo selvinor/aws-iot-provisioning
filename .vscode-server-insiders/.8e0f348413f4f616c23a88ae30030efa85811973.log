@@ -1,0 +1,31 @@
+
+
+*
+* Visual Studio Code Server
+*
+* Reminder: You may only use this software with Visual Studio family products,
+* as described in the license https://aka.ms/vscode-remote/license
+*
+
+
+IP Address: 192.168.1.20
+webview server listening on 35115
+Extension host agent listening on 42089
+==> Received a management connection
+==> Received an extension host connection.
+==> Using UI language: en
+bash: cannot set terminal process group (-1): Inappropriate ioctl for device
+bash: no job control in this shell
+{ Error: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27) errno: 'ECONNRESET', code: 'ECONNRESET', syscall: 'read' }
+EXTHOST: PROCESS EXITED
+0
+null
+Last EH closed, waiting before shutting down
+Got delay-shutdown request while in shutdown timeout, delaying
+Cancelling previous shutdown timeout
+==> Received a management connection
+==> Received an extension host connection.
+==> Using UI language: en
+==> Received a management connection
+New EH opened, aborting shutdown

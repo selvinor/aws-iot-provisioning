@@ -1,0 +1,25 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Effect": "Allow",
+      "Action": [
+        "iot:Connect",
+        "iot:CreateThing",
+        "iot:CreateThingGroup",
+        "iot:CreateThingType",
+        "iot:DeleteThing",
+        "iot:DeleteThingType",
+        "iot:DescribeThing",
+        "iot:DescribeThingType",
+        "iot:GetRegistrationCode",
+        "iot:ListThings",
+        "iot:ListThingTypes",
+        "iot:ListTopicRules",
+        "iot:Publish",
+        "iot:UpdateThing"
+      ],
+      "Resource": "*"
+    }
+  ]
+}

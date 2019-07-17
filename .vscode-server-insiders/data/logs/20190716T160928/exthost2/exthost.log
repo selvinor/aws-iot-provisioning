@@ -1,0 +1,12 @@
+[2019-07-16 16:10:17.552] [exthost] [info] extension host started
+[2019-07-16 16:10:17.679] [exthost] [info] ExtensionService#_doActivateExtension vscode.python {"startup":false,"activationEvent":"onLanguage:python"}
+[2019-07-16 16:10:17.679] [exthost] [info] ExtensionService#loadCommonJSModule /home/pi/.vscode-server-insiders/bin/8e0f348413f4f616c23a88ae30030efa85811973/extensions/python/dist/pythonMain
+[2019-07-16 16:10:17.698] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"activationEvent":"*"}
+[2019-07-16 16:10:17.698] [exthost] [info] ExtensionService#loadCommonJSModule /home/pi/.vscode-server-insiders/bin/8e0f348413f4f616c23a88ae30030efa85811973/extensions/debug-auto-launch/dist/extension
+[2019-07-16 16:10:17.719] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"activationEvent":"*"}
+[2019-07-16 16:10:17.719] [exthost] [info] ExtensionService#loadCommonJSModule /home/pi/.vscode-server-insiders/bin/8e0f348413f4f616c23a88ae30030efa85811973/extensions/emmet/dist/extension
+[2019-07-16 16:10:17.767] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"activationEvent":"*"}
+[2019-07-16 16:10:17.767] [exthost] [info] ExtensionService#loadCommonJSModule /home/pi/.vscode-server-insiders/bin/8e0f348413f4f616c23a88ae30030efa85811973/extensions/git/dist/main
+[2019-07-16 16:10:18.155] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"activationEvent":"*"}
+[2019-07-16 16:10:18.155] [exthost] [info] ExtensionService#loadCommonJSModule /home/pi/.vscode-server-insiders/bin/8e0f348413f4f616c23a88ae30030efa85811973/extensions/merge-conflict/dist/extension
+[2019-07-16 16:10:18.184] [exthost] [info] eager extensions activated
