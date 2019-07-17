@@ -74,10 +74,10 @@ def cont():
     raw_input("== press <enter> to continue, <ctrl+c> to abort!\n")
 
 # key/cert/csr file name for the thing
-key_file = thing_name + '.device.key.pem'
-csr_file = thing_name + '.device.csr.pem'
-cert_file = thing_name + '.device.cert.pem'
-endpoint_file = thing_name + '.endpoint'
+key_file = './certs/' + thing_name + '.device.key.pem'
+csr_file = './certs/' + thing_name + '.device.csr.pem'
+cert_file ='./certs/' +  thing_name + '.device.cert.pem'
+endpoint_file = './certs/' + thing_name + '.endpoint'
 
 
 if os.path.isfile(key_file) and os.path.isfile(cert_file):

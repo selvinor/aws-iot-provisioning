@@ -170,3 +170,7 @@ sudo chmod +x ./create-root-ca-bundle.sh
 sudo ./create-root-ca-bundle.sh
 sudo ./global-device.py -t mydevice2 -a https://ef0lg13kbj.execute-api.us-west-2.amazonaws.com/test/device-provisioning  -c
 sudo ./global-device.py -t mydevice2 -a https://ef0lg13kbj.execute-api.us-west-2.amazonaws.com/test/device-provisioning  -c
+git branch
+git add .
+git commit -m 'basic thing provisioned and publishing'
+git push
