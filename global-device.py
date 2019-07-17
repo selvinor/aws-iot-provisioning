@@ -50,6 +50,8 @@ rootCAPath = 'root.ca.bundle.pem'
 # parse command line args
 #
 parser = argparse.ArgumentParser(description='Sample device for global provisiong with AWS IoT Core')
+parser.add_argument("-g", "--thing-group-name", action="store", required=True, dest="thing_group_name", help="group name")
+parser.add_argument("-tt", "--thing-type-name", action="store", required=True, dest="thing_type_name", help="thing type")
 parser.add_argument("-t", "--thing-name", action="store", required=True, dest="thing_name", help="thing name for your device")
 parser.add_argument("-a", "--api-gw", action="store", required=True, dest="api_gw", help="API Gateway URL for device provisioning")
 parser.add_argument("-k", "--own-key", action="store_true", dest="use_own_priv_key", default=False,
@@ -60,6 +62,10 @@ parser.add_argument("-f", "--fake-device", action="store_true", dest="fake_devic
                     help="use a fake device name to demonstrate that verifying the sig fails")
 
 args = parser.parse_args()
+ 
+thing_type_name = args.thing_type_name
+thing_group_name = args.thing_group_name
+#thing_name = thing_group_name + '-' + thing_type_name + '-' + args.thing_name
 thing_name = args.thing_name
 api_gw = args.api_gw
 use_own_priv_key = args.use_own_priv_key
@@ -93,6 +99,8 @@ if os.path.isfile(key_file) and os.path.isfile(cert_file):
 else:
     print("=> provisioning device with AWS IoT Core...")
     print("   thing-name: {}".format(thing_name))
+    print("   thing-type-name: {}".format(thing_type_name))
+    print("   thing-group-name: {}".format(thing_group_name))
     print("   use_own_priv_key: {}".format(use_own_priv_key))
     cont()
 
@@ -138,9 +146,9 @@ else:
         print("=> faking device name")
         thing_name = str(uuid.uuid4())
 
-    payload = {'thing-name': thing_name, 'thing-name-sig': sig}
+    payload = {'thing-name': thing_name, 'thing-type-name': thing_type_name, 'thing-group-name': thing_group_name, 'thing-name-sig': sig}
     if use_own_priv_key:
-        payload = {'thing-name': thing_name, 'thing-name-sig': sig, 'CSR': crypto.dump_certificate_request(crypto.FILETYPE_PEM, csr)}
+        payload = {'thing-name': thing_name, 'thing-type-name': thing_type_name, 'thing-group-name': thing_group_name, 'thing-name-sig': sig, 'CSR': crypto.dump_certificate_request(crypto.FILETYPE_PEM, csr)}
 
     print("=> request payload that will be send to the API Gateway...")
     print("   api gateway url: {}".format(api_gw))
