@@ -11375,3 +11375,261 @@ Open repository: /home/pi
 > git remote --verbose
 > git check-ignore -v -z --stdin
 > git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse basic-thing
+> git rev-parse --symbolic-full-name basic-thing@{u}
+> git rev-list --left-right basic-thing...refs/remotes/origin/basic-thing
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :.gitignore
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse basic-thing
+> git rev-parse --symbolic-full-name basic-thing@{u}
+> git rev-list --left-right basic-thing...refs/remotes/origin/basic-thing
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse basic-thing
+> git rev-parse --symbolic-full-name basic-thing@{u}
+> git rev-list --left-right basic-thing...refs/remotes/origin/basic-thing
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse basic-thing
+> git rev-parse --symbolic-full-name basic-thing@{u}
+> git rev-list --left-right basic-thing...refs/remotes/origin/basic-thing
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse basic-thing
+> git rev-parse --symbolic-full-name basic-thing@{u}
+> git rev-list --left-right basic-thing...refs/remotes/origin/basic-thing
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse basic-thing
+> git rev-parse --symbolic-full-name basic-thing@{u}
+> git rev-list --left-right basic-thing...refs/remotes/origin/basic-thing
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse basic-thing
+> git rev-parse --symbolic-full-name basic-thing@{u}
+> git rev-list --left-right basic-thing...refs/remotes/origin/basic-thing
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse basic-thing
+> git rev-parse --symbolic-full-name basic-thing@{u}
+> git rev-list --left-right basic-thing...refs/remotes/origin/basic-thing
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse basic-thing
+> git rev-parse --symbolic-full-name basic-thing@{u}
+> git rev-list --left-right basic-thing...refs/remotes/origin/basic-thing
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse basic-thing
+> git rev-parse --symbolic-full-name basic-thing@{u}
+> git rev-list --left-right basic-thing...refs/remotes/origin/basic-thing
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse basic-thing
+> git rev-parse --symbolic-full-name basic-thing@{u}
+> git rev-list --left-right basic-thing...refs/remotes/origin/basic-thing
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse basic-thing
+> git rev-parse --symbolic-full-name basic-thing@{u}
+> git rev-list --left-right basic-thing...refs/remotes/origin/basic-thing
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse basic-thing
+> git rev-parse --symbolic-full-name basic-thing@{u}
+> git rev-list --left-right basic-thing...refs/remotes/origin/basic-thing
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse basic-thing
+> git rev-parse --symbolic-full-name basic-thing@{u}
+> git rev-list --left-right basic-thing...refs/remotes/origin/basic-thing
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :.gitignore
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse basic-thing
+> git rev-parse --symbolic-full-name basic-thing@{u}
+> git rev-list --left-right basic-thing...refs/remotes/origin/basic-thing
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse basic-thing
+> git rev-parse --symbolic-full-name basic-thing@{u}
+> git rev-list --left-right basic-thing...refs/remotes/origin/basic-thing
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse basic-thing
+> git rev-parse --symbolic-full-name basic-thing@{u}
+> git rev-list --left-right basic-thing...refs/remotes/origin/basic-thing
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse basic-thing
+> git rev-parse --symbolic-full-name basic-thing@{u}
+> git rev-list --left-right basic-thing...refs/remotes/origin/basic-thing
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse basic-thing
+> git rev-parse --symbolic-full-name basic-thing@{u}
+> git rev-list --left-right basic-thing...refs/remotes/origin/basic-thing
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse basic-thing
+> git rev-parse --symbolic-full-name basic-thing@{u}
+> git rev-list --left-right basic-thing...refs/remotes/origin/basic-thing
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse basic-thing
+> git rev-parse --symbolic-full-name basic-thing@{u}
+> git rev-list --left-right basic-thing...refs/remotes/origin/basic-thing
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse basic-thing
+> git rev-parse --symbolic-full-name basic-thing@{u}
+> git rev-list --left-right basic-thing...refs/remotes/origin/basic-thing
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse basic-thing
+> git rev-parse --symbolic-full-name basic-thing@{u}
+> git rev-list --left-right basic-thing...refs/remotes/origin/basic-thing
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse basic-thing
+> git rev-parse --symbolic-full-name basic-thing@{u}
+> git rev-list --left-right basic-thing...refs/remotes/origin/basic-thing
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse basic-thing
+> git rev-parse --symbolic-full-name basic-thing@{u}
+> git rev-list --left-right basic-thing...refs/remotes/origin/basic-thing
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git check-ignore -v -z --stdin
+> git symbolic-ref --short HEAD
+> git rev-parse basic-thing
+> git rev-parse --symbolic-full-name basic-thing@{u}
+> git rev-list --left-right basic-thing...refs/remotes/origin/basic-thing
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse basic-thing
+> git rev-parse --symbolic-full-name basic-thing@{u}
+> git rev-list --left-right basic-thing...refs/remotes/origin/basic-thing
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse basic-thing
+> git rev-parse --symbolic-full-name basic-thing@{u}
+> git rev-list --left-right basic-thing...refs/remotes/origin/basic-thing
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse basic-thing
+> git rev-parse --symbolic-full-name basic-thing@{u}
+> git rev-list --left-right basic-thing...refs/remotes/origin/basic-thing
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse basic-thing
+> git rev-parse --symbolic-full-name basic-thing@{u}
+> git rev-list --left-right basic-thing...refs/remotes/origin/basic-thing
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git show :.gitignore
+> git symbolic-ref --short HEAD
+> git rev-parse basic-thing
+> git rev-parse --symbolic-full-name basic-thing@{u}
+> git rev-list --left-right basic-thing...refs/remotes/origin/basic-thing
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse basic-thing
+> git rev-parse --symbolic-full-name basic-thing@{u}
+> git rev-list --left-right basic-thing...refs/remotes/origin/basic-thing
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse basic-thing
+> git rev-parse --symbolic-full-name basic-thing@{u}
+> git rev-list --left-right basic-thing...refs/remotes/origin/basic-thing
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse basic-thing
+> git rev-parse --symbolic-full-name basic-thing@{u}
+> git rev-list --left-right basic-thing...refs/remotes/origin/basic-thing
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse basic-thing
+> git rev-parse --symbolic-full-name basic-thing@{u}
+> git rev-list --left-right basic-thing...refs/remotes/origin/basic-thing
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse basic-thing
+> git rev-parse --symbolic-full-name basic-thing@{u}
+> git rev-list --left-right basic-thing...refs/remotes/origin/basic-thing
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
