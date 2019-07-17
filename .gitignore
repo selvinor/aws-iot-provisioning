@@ -5,3 +5,4 @@
 *.endpoint
 *.env
 certs.*
+*.log
